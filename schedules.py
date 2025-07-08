@@ -34,6 +34,7 @@ def tuesday_pm():
     twiliotest.msg_sender("PM Class Will Commence At 09:00 AM To 11:00 AM")
     twiliotest.msg_sender(pm_link)
 
+
 def tuesday_pm_lab():
     load_env()
     pm_link = os.getenv("PM_LINK")
